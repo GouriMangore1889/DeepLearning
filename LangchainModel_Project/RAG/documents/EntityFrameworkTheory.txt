@@ -1,0 +1,47 @@
+Entity Framework=>
+     it is a tool that help us work with a database 
+     using c# code instead of sql query
+  need of it
+     less code,faster development , easy to mentain
+Types 
+   1)entity Framework=>
+       older version
+       light weight
+       works in only windows
+   2)entity Framework core
+       advance
+       heavy
+       works on cross platform
+obj relational mapping
+   it maps c# classes to  database table and obj to row
+   ex=>
+       public class Student{
+          public String name{get;set;};
+          public int id {get;set;};
+       }
+three types of coding approch
+  1) code first approch
+       start with coding
+       create c# classes then database created automatically
+  2) database first
+       database is already exist
+       ganarate c# classes from datbase
+  3)model first 
+       design model first then db create
+
+DB context 
+   it is a main class that connects your application to the DB
+   ex=>
+       public DbSet<Student> students{get;set;}
+   it is bridge between application and database
+
+migration
+  it is used to create and update database structure automatically 
+  ex=>
+     public class Student{
+        public string emailId{get;set;};
+     }
+  it updates this email id to db
+
+CRUD(create,read,update,delete)
+  

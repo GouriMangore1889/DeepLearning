@@ -1,0 +1,20 @@
+streamlit
+python-dotenv
+
+langchain
+langchain-core
+langchain-community
+
+langchain-groq
+langchain-huggingface
+
+faiss-cpu
+
+sentence-transformers
+
+transformers
+torch
+
+pypdf
+
+# pip install -r requirements.txt

@@ -1,0 +1,53 @@
+Angular 
+  -angular is typescript based frontend developed by google
+  -it is single page appication(spa)=>where the page does not fully reload 
+  -tools
+     -node.js
+     -
+
+
+
+-dependancies
+  -used for production
+-dev dependancies 
+
+-angular.json=>project configuration file
+-
+gitignore=>files or folder to execute 
+
+index.html=>main file
+app.config.ts=>app config file
+
+components=
+  -it is a ui block or structure when we create one component==>ng generate component component_name 
+  -when we create four files are created=>html,css,typeScript,spec.ts
+
+Data binding
+ -it means connect ui to code
+ -types
+   -one way =
+      -interpolation=>show data from .ts in html=>{{value}}
+      -property binding=> [prop]='value'=> bind html property to ts variable
+      -event binding=> call function on event
+   -two way
+      -ng module
+      -see data both ways (ts to html ot html to ts)
+
+modules
+   before anguler 15 we need ng modules .now days we are using angular 21 version soo modules are optional
+   you can now use stand alone components 
+
+directives
+   think directives like magic wands that can change your web page without rewritting them
+   types 
+      1)structureal directives 
+         change the structure of your page=>like add remove or repetative things=>ng ef,ng for
+      2)attribute directives
+         check how it loops
+
+activity
+  1)how we can use if else ,for loop,swtch caes in angular
+
+Routing
+  navigation between one to another is Routing
+  
